@@ -3,6 +3,5 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Hello World from Herokujo ?</p>'; ?> 
- </body>
+ <?php echo '<h1>Hello world '.($_GET["name"]).'</h1>';?> </body>
 </html>
